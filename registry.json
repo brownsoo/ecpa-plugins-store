@@ -289,6 +289,33 @@
       "install": {
         "type": "github-release"
       }
+    },
+    {
+      "id": "gemini-web2api",
+      "name": "Gemini-Web2API",
+      "description": "CLIProxyAPI native plugin, ported from Mag1cFall/Gemini-Web2API, that turns Google Gemini web into OpenAI Chat Completions, OpenAI Responses, Claude Messages and Gemini Native APIs. Chrome 131 TLS/HTTP2 fingerprint emulation, automatic Cookie rotation and keyless Guest sessions, with model catalog, thinking levels, multi-account scheduling, quota panel and one-click local Chrome login.",
+      "author": "jianli9158 (Upstream: Mag1cFall)",
+      "version": "1.0.5",
+      "repository": "https://github.com/jianli9158/cpa-plugin-gemini-web2api",
+      "logo": "https://avatars.githubusercontent.com/u/27762760?s=64&v=4",
+      "homepage": "https://github.com/jianli9158/cpa-plugin-gemini-web2api",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Scheduler",
+        "Quota",
+        "Management",
+        "Gemini"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "移植自 Mag1cFall/Gemini-Web2API 的 CLIProxyAPI 原生插件：通过 Chrome 131 TLS/HTTP2 指纹伪装、Cookie 自动轮换与免登录访客会话，把 Gemini 网页版的对话模型（含思维等级控制）、绘图、视频、音乐、Canvas、深度研究、引导式学习与语音 TTS/STT 能力统一提供为 OpenAI Chat Completions、OpenAI Responses、Claude Messages 与 Gemini Native 四种协议，并支持多账号轮询/填充调度、实时配额面板与本机 Chrome 一键登录。"
+        }
+      },
+      "install": {
+        "type": "github-release"
+      }
     }
   ]
 }
